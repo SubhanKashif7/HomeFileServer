@@ -1,0 +1,20 @@
+{
+  "name": "homefileserver",
+  "version": "1.0.0",
+  "description": "a simple home server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Subhan Kashif",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
